@@ -1,0 +1,29 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4418
+
+Bck is a plugin that enhances searching in Vim. It puts bits and pieces 
+together to make searching a better experience in Vim.
+
+Searching is powered by ack, which needs to be installed first. This plugin
+is similar to ack.vim but it brings several improvements:
+
+* You can specify search options using hotkeys which are displayed at the top of the Bck window
+* Each search result has an associated hotkey which can be used to view it
+* Cursorline is used to highlight the result
+* Results are displayed in the Bck window, but are available in the quickfix
+window as well
+
+Bck provides a unified way to search in the following locations:
+
+* project - the closest parent dir which contains a .git folder (or .svn, .hg etc., configurable)
+* parent dir - relative to the current file
+* file - search only in the current file 
+* current dir - in Vim's current working directory
+* buffers - all listed buffers
+
+Other search options are:
+
+* ignore case / match case
+* recursive / non-recursive
+* whole word / substring
+
+More details on github: https://github.com/mihaifm/bck
